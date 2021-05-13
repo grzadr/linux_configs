@@ -1,0 +1,10 @@
+# Load default file
+$include /etc/inputrc
+
+# Enable advanced history search
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+
+# Keybind to surround with quotation mark
+"\e\'":"\C-a\"\C-e\""
+
